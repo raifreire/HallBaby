@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./css/estilo-1.css" type="text/css" />
+<link rel="stylesheet" href="./css/style.css" type="text/css" />
+<link rel="stylesheet" href="./css/html5-reset.css" type="text/css" /> 
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/modernizr-2.0.6.min.js"></script> 
+<?php
+include('dados.ini');
+include('./ini/menu.ini');
+
+?>
+
+<title><?php echo $empresa;?></title>
+
+</head>
+
+<body>
+
+<div class="topo">
+  <div class="amarra-topo"> 
+  <div class="topo-box"><img src="imagens/logo_hb.png" width="304" height="163"></div>
+    <div class="topo-box">
+      <div class="texto-topo">HALL BABY BRECHÓ INFANTIL<br />
+      Faça negociações seguras, com  tranquilidade, comodidade em<br />um ambiente de fácil uso.<br /><br />Aproveite nossos serviços.</div>
+      </div>
+         <div class="topo-box">
+         <div class="facebook">
+         	<!-- logar com facebook-->
+            </div>
+         </div>
+      </div>
+   </div>
+	
+  <div class="amarra_menu_1"> <!--inicio do amarra menu 1-->  
+  <div class="menu-1"><!-- inicio do menu -->
+  <div id="container" style="min-width:100px; max-width:1000px; margin:0px auto; ">
+
+	<!-- begin navigation -->
+	<nav id="navigation">
+		<ul>
+			<li><a href="index.php">INICIO</a></li>
+			<li><a href="produtos.php">PRODUTOS</a></li>
+			<li><a href="quemSomos.php">QUEM SOMOS</a></li>
+			<li><a href="opinioes.php">OPINIOES</a></li>
+			<li><a href="regras.php">REGRAS</a></li>
+			<li><a href="comoFunciona.php">COMO FUNCIONA</a></li>
+		</ul>
+	</nav>
+	<!-- end navigation -->
+	
+</div> <!--fim do menu-->
+</div><!--fim do amarra menu 1-->
+  
+  
+  </div>
+ <div class="corpo">  <!-- inicio do corpo do site-->
+ 	
+ 
+ 
+ </div> <!-- fim do corpo do site--> 
+   
+    
+<div class="rodape"> 
+		<div class="amarra">
+            <div class="rodape-box">lista de links</div>
+            <div class="rodape-box">doacoes</div>
+            <div class="rodape-box">siga nos</div>
+            <div class="rodape-box">falecom</div>
+            
+        </div>
+
+</div>
+</body>
